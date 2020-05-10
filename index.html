@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Регистрация</title>
+        <link rel="stylesheet" type="text/css" href="styles\general_style.css"/>
+        <link rel="stylesheet" type="text/css" href="styles\register_style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body> 
+        <header>
+            <nav class="navbar"> 
+                <img class = "myicon" src="images/crossword.png" alt="Кроссворд">
+                <div class="nav2">
+                    <a class="burger-icon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <ul>
+                        <li class="right-li"><a href="#login">Войти</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <form class="register">
+            <h2>Регистрация</h2>
+                <label for="login">Логин:</label>
+                <input type="text" placeholder="Введите логин" name="login" required>
+            
+                <label for="psw">Пароль:</label>
+                <input type="password" placeholder="Введите пароль" name="psw" required>
+            
+                <label for="psw-repeat">Подтвердите пароль:</label>
+                <input type="password" placeholder="Введите пароль повторно" name="psw-repeat" required>
+            
+                <button type="submit" class="signupbtn">Зарегистрироваться</button>
+              
+        </form>
+    </body>
+</html>
